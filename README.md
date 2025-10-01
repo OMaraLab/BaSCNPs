@@ -7,5 +7,5 @@ The full manuscript can be accessed at [https://doi.org/10.1039/D5PY00883B](http
 
 * **BaSCNP_gromos54a7_atb.ff** is a forcefield folder used in the PolyConstruct workflow
 * **polymer_generation** contains scripts to generate SCNPs
-* **simulation_input_files** contains input files for all production simulations discussed in the above citation.
+* **simulation_input_files** contains input files and final coordinates for all production simulations discussed in the above citation.
 
