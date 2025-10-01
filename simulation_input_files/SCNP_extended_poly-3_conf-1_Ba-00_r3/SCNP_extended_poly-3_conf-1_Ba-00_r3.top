@@ -1,0 +1,46 @@
+;
+;	File 'poly03/conf_test/polymer_03_master.top' was generated
+;	By user: ada (501)
+;	On host: Arbit
+;	At date: Tue Mar 12 12:21:07 2024
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2021.4 (-:
+;	
+;	Executable:   /usr/local/packages/gromacs/gromacs-2021.4/bin/gmx
+;	Data prefix:  /usr/local/packages/gromacs/gromacs-2021.4
+;	Working dir:  /Users/ada/Library/CloudStorage/OneDrive-TheUniversityofQueensland/CBK4/param/13_genconf_actual
+;	Command line:
+;	  gmx pdb2gmx -f poly03/polymer_03_1.gro -o poly03/conf_test/01_polymer_03_test.gro -p poly03/conf_test/polymer_03_master.top -i poly03/conf_test/polymer_03_posre.itp
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./BaSCNP_gromos54a7_atb.ff/forcefield.itp"
+
+#include "./polymer_03.itp"
+
+
+; Include water topology
+#include "./BaSCNP_gromos54a7_atb.ff/spce.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./BaSCNP_gromos54a7_atb.ff/ions.itp"
+
+[ system ]
+; Name
+Precursor polymer 3 conformation 1 in water
+
+[ molecules ]
+; Compound        #mols
+Other               1
+SOL             150000

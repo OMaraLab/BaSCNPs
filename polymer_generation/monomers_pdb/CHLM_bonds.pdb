@@ -1,0 +1,35 @@
+HEADER    UNCLASSIFIED                            20-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1   HZ CHLM    0       4.632  -0.707   1.285  1.00  0.00           H
+HETATM    2  O1A CHLM    0       4.692  -0.602   0.318  1.00  0.00           O
+HETATM    3  C1C CHLM    0       3.502  -0.237  -0.208  1.00  0.00           C
+HETATM    4  O1B CHLM    0       3.391  -0.129  -1.411  1.00  0.00           O
+HETATM    5  C1B CHLM    0       2.387   0.057   0.781  1.00  0.00           C
+HETATM    6  C1A CHLM    0       1.024   0.059   0.100  1.00  0.00           C
+HETATM    7  OG1 CHLM    0       0.081   0.485   1.105  1.00  0.00           O
+HETATM    8   CB CHLM    0      -1.248   0.620   0.866  1.00  0.00           C
+HETATM    9  OG2 CHLM    0      -1.932   1.031   1.784  1.00  0.00           O
+HETATM   10   CA CHLM    0      -1.848   0.278  -0.496  1.00  0.00           C
+HETATM   11   CN CHLM    0      -2.394   1.578  -1.137  1.00  0.00           C
+HETATM   12  CMA CHLM    0      -1.320   2.619  -1.474  1.00  0.00           C
+HETATM   13    C CHLM    0      -2.981  -0.759  -0.298  1.00  0.00           C
+HETATM   14   CP CHLM    0      -2.529  -2.145   0.191  1.00  0.00           C
+HETATM   15   CQ CHLM    0      -1.774  -2.975  -0.855  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11   13
+CONECT   11   10   12
+CONECT   12   11
+CONECT   13   10   14
+CONECT   14   13   15
+CONECT   15   14
+END

@@ -1,0 +1,59 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1  O1B COLI    0      -3.199   2.887   0.827  1.00  0.00           O
+HETATM    2  C1C COLI    0      -4.163   2.471   0.128  1.00  0.00           C
+HETATM    3  O1A COLI    0      -5.358   2.861   0.150  1.00  0.00           O
+HETATM    4  C1B COLI    0      -3.825   1.348  -0.898  1.00  0.00           C
+HETATM    5  C1A COLI    0      -2.671   0.487  -0.421  1.00  0.00           C
+HETATM    6  OG1 COLI    0      -2.434  -0.545  -1.430  1.00  0.00           O
+HETATM    7   CB COLI    0      -1.518  -1.511  -1.290  1.00  0.00           C
+HETATM    8  OG2 COLI    0      -1.428  -2.368  -2.151  1.00  0.00           O
+HETATM    9   CA COLI    0      -0.578  -1.519  -0.078  1.00  0.00           C
+HETATM   10   HB COLI    0      -0.833  -0.771   0.673  1.00  0.00           H
+HETATM   11    C COLI    0      -0.485  -2.922   0.551  1.00  0.00           C
+HETATM   12   CP COLI    0      -1.798  -3.401   1.199  1.00  0.00           C
+HETATM   13   CQ COLI    0      -2.192  -2.656   2.482  1.00  0.00           C
+HETATM   14   S1 COLI    0       1.060  -0.992  -0.769  1.00  0.00           S
+HETATM   15  CIA COLI    0       1.802  -0.012   0.500  1.00  0.00           C
+HETATM   16   S2 COLI    0       1.173   0.236   2.014  1.00  0.00           S
+HETATM   17  CIB COLI    0       3.105   0.549   0.061  1.00  0.00           C
+HETATM   18 CIC2 COLI    0       3.303   1.015  -1.254  1.00  0.00           C
+HETATM   19 HIC2 COLI    0       2.483   1.000  -1.966  1.00  0.00           H
+HETATM   20 CID2 COLI    0       4.534   1.548  -1.636  1.00  0.00           C
+HETATM   21 HID2 COLI    0       4.664   1.922  -2.647  1.00  0.00           H
+HETATM   22 CIE1 COLI    0       5.589   1.605  -0.723  1.00  0.00           C
+HETATM   23 HIE1 COLI    0       6.550   2.013  -1.026  1.00  0.00           H
+HETATM   24 CID1 COLI    0       5.406   1.137   0.583  1.00  0.00           C
+HETATM   25 HID1 COLI    0       6.225   1.173   1.295  1.00  0.00           H
+HETATM   26 CIC1 COLI    0       4.174   0.622   0.976  1.00  0.00           C
+HETATM   27 HIC1 COLI    0       4.031   0.255   1.987  1.00  0.00           H
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10   11   14
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12
+CONECT   14    9   15
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15   18   26
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   20
+CONECT   22   20   23   24
+CONECT   23   22
+CONECT   24   22   25   26
+CONECT   25   24
+CONECT   26   17   24   27
+CONECT   27   26
+END

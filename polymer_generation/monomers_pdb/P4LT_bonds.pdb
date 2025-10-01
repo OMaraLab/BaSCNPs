@@ -1,0 +1,57 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1   N1 P4LT    0      -4.082   4.160   0.208  1.00  0.00           N
+HETATM    2 CTCN P4LT    0      -3.650   3.083   0.275  1.00  0.00           C
+HETATM    3  CTA P4LT    0      -3.034   1.745   0.405  1.00  0.00           C
+HETATM    4 CTB1 P4LT    0      -1.809   1.936   1.346  1.00  0.00           C
+HETATM    5 CTB2 P4LT    0      -2.525   1.274  -0.976  1.00  0.00           C
+HETATM    6    C P4LT    0      -4.022   0.756   1.129  1.00  0.00           C
+HETATM    7   CA P4LT    0      -5.101  -0.115   0.408  1.00  0.00           C
+HETATM    8  CB2 P4LT    0      -5.745  -1.001   1.521  1.00  0.00           C
+HETATM    9   CN P4LT    0      -6.288   0.707  -0.186  1.00  0.00           C
+HETATM   10  CMA P4LT    0      -6.097   1.583  -1.432  1.00  0.00           C
+HETATM   11   CB P4LT    0      -4.559  -1.082  -0.667  1.00  0.00           C
+HETATM   12  OG2 P4LT    0      -5.113  -1.229  -1.738  1.00  0.00           O
+HETATM   13  OG1 P4LT    0      -3.418  -1.806  -0.488  1.00  0.00           O
+HETATM   14  C1A P4LT    0      -2.899  -2.389   0.725  1.00  0.00           C
+HETATM   15  C1B P4LT    0      -1.491  -2.861   0.433  1.00  0.00           C
+HETATM   16  O1C P4LT    0      -0.634  -1.732   0.350  1.00  0.00           O
+HETATM   17  C2A P4LT    0       0.708  -2.094   0.059  1.00  0.00           C
+HETATM   18  C2B P4LT    0       1.573  -0.846   0.166  1.00  0.00           C
+HETATM   19  O2C P4LT    0       2.902  -1.240  -0.135  1.00  0.00           O
+HETATM   20  C3A P4LT    0       3.850  -0.200   0.032  1.00  0.00           C
+HETATM   21  C3B P4LT    0       5.213  -0.770  -0.336  1.00  0.00           C
+HETATM   22  O3C P4LT    0       6.184   0.233  -0.088  1.00  0.00           O
+HETATM   23  C4A P4LT    0       7.499  -0.179  -0.426  1.00  0.00           C
+HETATM   24  C4B P4LT    0       8.453   0.940  -0.031  1.00  0.00           C
+HETATM   25  O4C P4LT    0       9.764   0.525  -0.373  1.00  0.00           O
+HETATM   26   CZ P4LT    0      10.744   1.491  -0.028  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5    6
+CONECT    4    3
+CONECT    5    3
+CONECT    6    3    7
+CONECT    7    6    8    9   11
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    9
+CONECT   11    7   12   13
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25
+END

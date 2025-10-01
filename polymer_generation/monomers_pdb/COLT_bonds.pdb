@@ -1,0 +1,39 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1  O1B COLT    0       3.920   0.347   1.245  1.00  0.00           O
+HETATM    2  C1C COLT    0       3.953   0.983   0.155  1.00  0.00           C
+HETATM    3  O1A COLT    0       4.794   1.850  -0.200  1.00  0.00           O
+HETATM    4  C1B COLT    0       2.861   0.610  -0.894  1.00  0.00           C
+HETATM    5  C1A COLT    0       1.601   0.088  -0.234  1.00  0.00           C
+HETATM    6  OG1 COLT    0       0.734  -0.465  -1.268  1.00  0.00           O
+HETATM    7   CB COLT    0      -0.468  -1.008  -1.008  1.00  0.00           C
+HETATM    8  OG2 COLT    0      -1.120  -1.431  -1.948  1.00  0.00           O
+HETATM    9   CA COLT    0      -0.979  -1.151   0.431  1.00  0.00           C
+HETATM   10   CN COLT    0      -0.964  -2.661   0.800  1.00  0.00           C
+HETATM   11  CMA COLT    0       0.416  -3.325   0.749  1.00  0.00           C
+HETATM   12    C COLT    0      -2.423  -0.614   0.546  1.00  0.00           C
+HETATM   13  CTA COLT    0      -2.631   0.924   0.681  1.00  0.00           C
+HETATM   14 CTCN COLT    0      -2.012   1.634  -0.456  1.00  0.00           C
+HETATM   15   N1 COLT    0      -1.525   2.213  -1.339  1.00  0.00           N
+HETATM   16 CTB1 COLT    0      -4.153   1.215   0.657  1.00  0.00           C
+HETATM   17 CTB2 COLT    0      -2.016   1.475   1.991  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10   12
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    9   13
+CONECT   13   12   14   16   17
+CONECT   14   13   15
+CONECT   15   14
+CONECT   16   13
+CONECT   17   13
+END

@@ -1,0 +1,63 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1   N1 P5DT    0       5.660   4.128   0.615  1.00  0.00           N
+HETATM    2 CTCN P5DT    0       5.090   3.154   0.341  1.00  0.00           C
+HETATM    3  CTA P5DT    0       4.298   1.953  -0.004  1.00  0.00           C
+HETATM    4 CTB2 P5DT    0       3.101   2.447  -0.863  1.00  0.00           C
+HETATM    5 CTB1 P5DT    0       3.755   1.324   1.301  1.00  0.00           C
+HETATM    6    C P5DT    0       5.121   0.955  -0.883  1.00  0.00           C
+HETATM    7   CA P5DT    0       6.323   0.147  -0.301  1.00  0.00           C
+HETATM    8  CB2 P5DT    0       7.387   1.083   0.308  1.00  0.00           C
+HETATM    9   CN P5DT    0       6.986  -0.691  -1.453  1.00  0.00           C
+HETATM   10  CMA P5DT    0       7.814   0.101  -2.475  1.00  0.00           C
+HETATM   11   CB P5DT    0       5.903  -0.841   0.816  1.00  0.00           C
+HETATM   12  OG2 P5DT    0       6.414  -0.807   1.920  1.00  0.00           O
+HETATM   13  OG1 P5DT    0       4.928  -1.774   0.656  1.00  0.00           O
+HETATM   14  C1A P5DT    0       4.377  -2.343  -0.550  1.00  0.00           C
+HETATM   15  C1B P5DT    0       2.999  -2.876  -0.220  1.00  0.00           C
+HETATM   16  O1C P5DT    0       2.097  -1.785  -0.123  1.00  0.00           O
+HETATM   17  C2A P5DT    0       0.777  -2.196   0.202  1.00  0.00           C
+HETATM   18  C2B P5DT    0      -0.145  -1.000   0.012  1.00  0.00           C
+HETATM   19  O2C P5DT    0      -1.460  -1.423   0.333  1.00  0.00           O
+HETATM   20  C3A P5DT    0      -2.443  -0.439   0.054  1.00  0.00           C
+HETATM   21  C3B P5DT    0      -3.798  -1.029   0.421  1.00  0.00           C
+HETATM   22  O3C P5DT    0      -4.791  -0.088   0.046  1.00  0.00           O
+HETATM   23  C4A P5DT    0      -6.104  -0.517   0.371  1.00  0.00           C
+HETATM   24  C4B P5DT    0      -7.076   0.537  -0.139  1.00  0.00           C
+HETATM   25  O4C P5DT    0      -8.385   0.103   0.191  1.00  0.00           O
+HETATM   26  C5A P5DT    0      -9.396   0.977  -0.287  1.00  0.00           C
+HETATM   27  C5B P5DT    0     -10.742   0.375   0.091  1.00  0.00           C
+HETATM   28  O5C P5DT    0     -11.752   1.238  -0.400  1.00  0.00           O
+HETATM   29   CZ P5DT    0     -13.056   0.790  -0.067  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5    6
+CONECT    4    3
+CONECT    5    3
+CONECT    6    3    7
+CONECT    7    6    8    9   11
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    9
+CONECT   11    7   12   13
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28
+END

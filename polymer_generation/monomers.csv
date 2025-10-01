@@ -1,0 +1,19 @@
+resname,atb resname,atb molid,count,fill,path,position,stereochemistry
+P5LT,FNZ2,1619542,00,0,monomers_pdb/P5LT_bonds.pdb,terminal,L
+P5DT,5QXU,1619541,00,0,monomers_pdb/P5DT_bonds.pdb,terminal,D
+P4LT,KA5B,1619540,00,0,monomers_pdb/P4LT_bonds.pdb,terminal,L
+P4DT,3OAO,1619539,00,0,monomers_pdb/P4DT_bonds.pdb,terminal,D
+COLT,SDC4,1619538,00,0,monomers_pdb/COLT_bonds.pdb,terminal,L
+CODT,03YG,1619536,00,0,monomers_pdb/CODT_bonds.pdb,terminal,D
+COLI,VYGN,1619332,00,0,monomers_pdb/COLI_bonds.pdb,initial,L
+CODI,VCLL,1619330,00,0,monomers_pdb/CODI_bonds.pdb,initial,D
+P4DI,5DD5,1619262,00,0,monomers_pdb/P4DI_bonds.pdb,initial,D
+P5DI,UXKC,1619261,00,0,monomers_pdb/P5DI_bonds.pdb,initial,D
+P5LI,QX5N,1619256,00,0,monomers_pdb/P5LI_bonds.pdb,initial,L
+P4LI,6ONN,1619255,00,0,monomers_pdb/P4LI_bonds.pdb,initial,L
+P5DM,1QOC,1619235,42,1,monomers_pdb/P5DM_bonds_backbone.pdb,middle,D
+P4DM,93MK,1619232,42,1,monomers_pdb/P4DM_bonds_backbone.pdb,middle,D
+P5LM,4HWD,1619224,42,1,monomers_pdb/P5LM_bonds_backbone.pdb,middle,L
+P4LM,9TK1,1619222,42,1,monomers_pdb/P4LM_bonds_backbone.pdb,middle,L
+CODM,NAF1,1619215,15,0,monomers_pdb/CODM_bonds.pdb,middle,D
+COLM,586L,1619199,15,0,monomers_pdb/COLM_bonds.pdb,middle,L

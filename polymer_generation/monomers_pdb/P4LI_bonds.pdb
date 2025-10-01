@@ -1,0 +1,75 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1 HIE2 P4LI    0      10.679   2.091   0.274  1.00  0.00           H
+HETATM    2  CIE P4LI    0       9.629   1.810   0.260  1.00  0.00           C
+HETATM    3 CID1 P4LI    0       8.637   2.797   0.241  1.00  0.00           C
+HETATM    4 HID1 P4LI    0       8.912   3.849   0.234  1.00  0.00           H
+HETATM    5 CIC1 P4LI    0       7.292   2.439   0.226  1.00  0.00           C
+HETATM    6 HIC1 P4LI    0       6.522   3.203   0.201  1.00  0.00           H
+HETATM    7  CIB P4LI    0       6.913   1.082   0.220  1.00  0.00           C
+HETATM    8 CIC2 P4LI    0       7.921   0.096   0.238  1.00  0.00           C
+HETATM    9 HIC2 P4LI    0       7.653  -0.955   0.271  1.00  0.00           H
+HETATM   10 CID2 P4LI    0       9.266   0.461   0.261  1.00  0.00           C
+HETATM   11 HID2 P4LI    0      10.031  -0.311   0.290  1.00  0.00           H
+HETATM   12  CIA P4LI    0       5.466   0.728   0.203  1.00  0.00           C
+HETATM   13   S2 P4LI    0       4.329   1.597   1.041  1.00  0.00           S
+HETATM   14   S1 P4LI    0       5.179  -0.673  -0.821  1.00  0.00           S
+HETATM   15   CA P4LI    0       3.375  -1.205  -0.798  1.00  0.00           C
+HETATM   16  CB2 P4LI    0       3.473  -2.706  -1.195  1.00  0.00           C
+HETATM   17    C P4LI    0       2.622  -0.459  -1.928  1.00  0.00           C
+HETATM   18   CP P4LI    0       2.448   1.063  -1.850  1.00  0.00           C
+HETATM   19   CQ P4LI    0       1.632   1.591  -3.037  1.00  0.00           C
+HETATM   20   CB P4LI    0       2.858  -1.218   0.667  1.00  0.00           C
+HETATM   21  OG2 P4LI    0       3.594  -1.562   1.567  1.00  0.00           O
+HETATM   22  OG1 P4LI    0       1.576  -0.950   1.001  1.00  0.00           O
+HETATM   23  C1A P4LI    0       0.412  -0.937   0.152  1.00  0.00           C
+HETATM   24  C1B P4LI    0      -0.787  -0.964   1.093  1.00  0.00           C
+HETATM   25  O1C P4LI    0      -1.935  -0.858   0.272  1.00  0.00           O
+HETATM   26  C2A P4LI    0      -3.153  -0.856   1.002  1.00  0.00           C
+HETATM   27  C2B P4LI    0      -4.268  -0.574   0.004  1.00  0.00           C
+HETATM   28  O2C P4LI    0      -5.500  -0.591   0.706  1.00  0.00           O
+HETATM   29  C3A P4LI    0      -6.602  -0.256  -0.123  1.00  0.00           C
+HETATM   30  C3B P4LI    0      -7.870  -0.384   0.710  1.00  0.00           C
+HETATM   31  O3C P4LI    0      -8.954   0.015  -0.113  1.00  0.00           O
+HETATM   32  C4A P4LI    0     -10.212  -0.085   0.533  1.00  0.00           C
+HETATM   33  C4B P4LI    0     -11.261   0.483  -0.414  1.00  0.00           C
+HETATM   34  O4C P4LI    0     -12.520   0.378   0.225  1.00  0.00           O
+HETATM   35   CZ P4LI    0     -13.562   0.979  -0.527  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3   10
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8   12
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    2    8   11
+CONECT   11   10
+CONECT   12    7   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16   17   20
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19
+CONECT   19   18
+CONECT   20   15   21   22
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   35   34
+END

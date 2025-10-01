@@ -1,0 +1,48 @@
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+ATOM      1  CQ  P4LMX   0      -2.187   2.598   0.955  1.00  0.00           C
+ATOM      2  CP  P4LMX   0      -3.103   1.625   0.202  1.00  0.00           C
+ATOM      3  C   P4LMX   0      -4.343   1.244   1.030  1.00  0.00           C
+ATOM      4  CA  P4LMX   0      -5.447   0.380   0.332  1.00  0.00           C
+ATOM      5  CB2 P4LMX   0      -6.227  -0.430   1.403  1.00  0.00           C
+ATOM      6  CN  P4LMX   0      -6.503   1.297  -0.358  1.00  0.00           C
+ATOM      7  CMA P4LMX   0      -7.204   0.261  -1.513  1.00  0.00           C
+ATOM      8  CB  P4LMX   0      -4.886  -0.595  -0.730  1.00  0.00           C
+ATOM      9  OG2 P4LMX   0      -5.275  -0.589  -1.883  1.00  0.00           O
+ATOM     10  OG1 P4LMX   0      -3.934  -1.524  -0.447  1.00  0.00           O
+ATOM     11  C1A P4LMX   0      -3.414  -1.897   0.846  1.00  0.00           C
+ATOM     12  C1B P4LMX   0      -2.032  -2.482   0.645  1.00  0.00           C
+ATOM     13  O1C P4LMX   0      -1.136  -1.442   0.293  1.00  0.00           O
+ATOM     14  C2A P4LMX   0       0.205  -1.887   0.160  1.00  0.00           C
+ATOM     15  C2B P4LMX   0       1.082  -0.659  -0.043  1.00  0.00           C
+ATOM     16  O2C P4LMX   0       2.422  -1.110  -0.156  1.00  0.00           O
+ATOM     17  C3A P4LMX   0       3.362  -0.048  -0.193  1.00  0.00           C
+ATOM     18  C3B P4LMX   0       4.748  -0.670  -0.299  1.00  0.00           C
+ATOM     19  O3C P4LMX   0       5.700   0.378  -0.223  1.00  0.00           O
+ATOM     20  C4A P4LMX   0       7.036  -0.088  -0.315  1.00  0.00           C
+ATOM     21  C4B P4LMX   0       7.961   1.112  -0.162  1.00  0.00           C
+ATOM     22  O4C P4LMX   0       9.292   0.636  -0.253  1.00  0.00           O
+ATOM     23  CZ  P4LMX   0      10.251   1.669  -0.110  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    6    8
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6
+CONECT    8    4    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22
+END

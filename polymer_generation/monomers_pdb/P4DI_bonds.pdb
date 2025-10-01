@@ -1,0 +1,75 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1 HIE1 P4DI    0       8.277  -4.664   0.724  1.00  0.00           H
+HETATM    2  CIE P4DI    0       7.608  -3.879   0.384  1.00  0.00           C
+HETATM    3 CID1 P4DI    0       6.856  -4.054  -0.783  1.00  0.00           C
+HETATM    4 HID1 P4DI    0       6.933  -4.978  -1.350  1.00  0.00           H
+HETATM    5 CIC1 P4DI    0       6.002  -3.048  -1.225  1.00  0.00           C
+HETATM    6 HIC1 P4DI    0       5.417  -3.185  -2.129  1.00  0.00           H
+HETATM    7  CIB P4DI    0       5.870  -1.850  -0.494  1.00  0.00           C
+HETATM    8 CIC2 P4DI    0       6.630  -1.685   0.681  1.00  0.00           C
+HETATM    9 HIC2 P4DI    0       6.570  -0.758   1.242  1.00  0.00           H
+HETATM   10 CID2 P4DI    0       7.496  -2.691   1.109  1.00  0.00           C
+HETATM   11 HID2 P4DI    0       8.087  -2.541   2.008  1.00  0.00           H
+HETATM   12  CIA P4DI    0       4.935  -0.797  -0.982  1.00  0.00           C
+HETATM   13   S2 P4DI    0       4.762  -0.453  -2.594  1.00  0.00           S
+HETATM   14   S1 P4DI    0       4.058  -0.101   0.381  1.00  0.00           S
+HETATM   15   CA P4DI    0       3.003   1.374  -0.154  1.00  0.00           C
+HETATM   16  CB2 P4DI    0       3.922   2.468  -0.719  1.00  0.00           C
+HETATM   17    C P4DI    0       1.879   1.005  -1.167  1.00  0.00           C
+HETATM   18   CP P4DI    0       0.714   2.011  -1.207  1.00  0.00           C
+HETATM   19   CQ P4DI    0      -0.270   1.685  -2.337  1.00  0.00           C
+HETATM   20   CB P4DI    0       2.402   1.903   1.187  1.00  0.00           C
+HETATM   21  OG2 P4DI    0       2.597   3.051   1.530  1.00  0.00           O
+HETATM   22  OG1 P4DI    0       1.611   1.159   1.984  1.00  0.00           O
+HETATM   23  C1A P4DI    0       1.260  -0.244   1.890  1.00  0.00           C
+HETATM   24  C1B P4DI    0      -0.166  -0.401   2.373  1.00  0.00           C
+HETATM   25  O1C P4DI    0      -1.044   0.110   1.386  1.00  0.00           O
+HETATM   26  C2A P4DI    0      -2.408   0.025   1.769  1.00  0.00           C
+HETATM   27  C2B P4DI    0      -3.256   0.472   0.586  1.00  0.00           C
+HETATM   28  O2C P4DI    0      -4.613   0.395   0.993  1.00  0.00           O
+HETATM   29  C3A P4DI    0      -5.533   0.599  -0.068  1.00  0.00           C
+HETATM   30  C3B P4DI    0      -6.931   0.456   0.519  1.00  0.00           C
+HETATM   31  O3C P4DI    0      -7.864   0.545  -0.544  1.00  0.00           O
+HETATM   32  C4A P4DI    0      -9.207   0.440  -0.097  1.00  0.00           C
+HETATM   33  C4B P4DI    0     -10.105   0.352  -1.323  1.00  0.00           C
+HETATM   34  O4C P4DI    0     -11.441   0.236  -0.864  1.00  0.00           O
+HETATM   35   CZ P4DI    0     -12.372   0.109  -1.926  1.00  0.00           C
+CONECT    1    2
+CONECT    2    1    3   10
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8   12
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    2    8   11
+CONECT   11   10
+CONECT   12    7   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16   17   20
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19
+CONECT   19   18
+CONECT   20   15   21   22
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   35   34
+END

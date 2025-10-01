@@ -1,0 +1,61 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1 HIE1 CHLI    0       6.812   1.819  -0.914  1.00  0.00           H
+HETATM    2 CIE1 CHLI    0       5.821   1.468  -0.641  1.00  0.00           C
+HETATM    3 CID2 CHLI    0       4.810   1.408  -1.603  1.00  0.00           C
+HETATM    4 HID2 CHLI    0       5.006   1.725  -2.623  1.00  0.00           H
+HETATM    5 CIC2 CHLI    0       3.539   0.949  -1.259  1.00  0.00           C
+HETATM    6 HIC2 CHLI    0       2.755   0.932  -2.010  1.00  0.00           H
+HETATM    7  CIB CHLI    0       3.256   0.559   0.066  1.00  0.00           C
+HETATM    8 CIC1 CHLI    0       4.281   0.637   1.030  1.00  0.00           C
+HETATM    9 HIC1 CHLI    0       4.073   0.329   2.049  1.00  0.00           H
+HETATM   10 CID1 CHLI    0       5.552   1.079   0.676  1.00  0.00           C
+HETATM   11 HID1 CHLI    0       6.334   1.121   1.429  1.00  0.00           H
+HETATM   12  CIA CHLI    0       1.912   0.072   0.465  1.00  0.00           C
+HETATM   13   S2 CHLI    0       1.228   0.410   1.938  1.00  0.00           S
+HETATM   14   S1 CHLI    0       1.181  -0.931  -0.795  1.00  0.00           S
+HETATM   15   CA CHLI    0      -0.495  -1.362  -0.133  1.00  0.00           C
+HETATM   16   HB CHLI    0      -0.744  -0.567   0.571  1.00  0.00           H
+HETATM   17    C CHLI    0      -0.479  -2.733   0.576  1.00  0.00           C
+HETATM   18   CP CHLI    0      -1.813  -3.095   1.258  1.00  0.00           C
+HETATM   19   CQ CHLI    0      -2.089  -2.325   2.555  1.00  0.00           C
+HETATM   20   CB CHLI    0      -1.409  -1.403  -1.359  1.00  0.00           C
+HETATM   21  OG2 CHLI    0      -1.220  -2.195  -2.261  1.00  0.00           O
+HETATM   22  OG1 CHLI    0      -2.455  -0.561  -1.457  1.00  0.00           O
+HETATM   23  C1A CHLI    0      -2.786   0.422  -0.448  1.00  0.00           C
+HETATM   24  C1B CHLI    0      -4.064   1.096  -0.928  1.00  0.00           C
+HETATM   25  C1C CHLI    0      -4.503   2.186   0.031  1.00  0.00           C
+HETATM   26  O1B CHLI    0      -3.866   2.539   1.001  1.00  0.00           O
+HETATM   27  O1A CHLI    0      -5.680   2.786  -0.250  1.00  0.00           O
+HETATM   28   HZ CHLI    0      -6.098   2.390  -1.035  1.00  0.00           H
+CONECT    1    2
+CONECT    2    1    3   10
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8   12
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    2    8   11
+CONECT   11   10
+CONECT   12    7   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16   17   20
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19
+CONECT   19   18
+CONECT   20   15   21   22
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26   25
+CONECT   27   25   28
+CONECT   28   27
+END

@@ -1,0 +1,61 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1 HIE1 CHDI    0       5.927   3.447   0.323  1.00  0.00           H
+HETATM    2 CIE1 CHDI    0       5.194   2.645   0.289  1.00  0.00           C
+HETATM    3 CID1 CHDI    0       5.449   1.435   0.942  1.00  0.00           C
+HETATM    4 HID1 CHDI    0       6.375   1.297   1.491  1.00  0.00           H
+HETATM    5 CIC1 CHDI    0       4.517   0.403   0.894  1.00  0.00           C
+HETATM    6 HIC1 CHDI    0       4.712  -0.534   1.404  1.00  0.00           H
+HETATM    7  CIB CHDI    0       3.300   0.567   0.200  1.00  0.00           C
+HETATM    8 CIC2 CHDI    0       3.053   1.794  -0.450  1.00  0.00           C
+HETATM    9 HIC2 CHDI    0       2.142   1.932  -1.023  1.00  0.00           H
+HETATM   10 CID2 CHDI    0       3.997   2.818  -0.410  1.00  0.00           C
+HETATM   11 HID2 CHDI    0       3.798   3.749  -0.933  1.00  0.00           H
+HETATM   12  CIA CHDI    0       2.324  -0.547   0.152  1.00  0.00           C
+HETATM   13   S2 CHDI    0       2.763  -2.143   0.133  1.00  0.00           S
+HETATM   14   S1 CHDI    0       0.650   0.052   0.168  1.00  0.00           S
+HETATM   15   CA CHDI    0      -0.390  -1.449  -0.147  1.00  0.00           C
+HETATM   16   HB CHDI    0       0.322  -2.193  -0.517  1.00  0.00           H
+HETATM   17    C CHDI    0      -1.026  -2.009   1.145  1.00  0.00           C
+HETATM   18   CP CHDI    0      -1.741  -3.364   0.965  1.00  0.00           C
+HETATM   19   CQ CHDI    0      -3.122  -3.305   0.297  1.00  0.00           C
+HETATM   20   CB CHDI    0      -1.289  -1.161  -1.356  1.00  0.00           C
+HETATM   21  OG2 CHDI    0      -1.120  -1.757  -2.400  1.00  0.00           O
+HETATM   22  OG1 CHDI    0      -2.265  -0.225  -1.327  1.00  0.00           O
+HETATM   23  C1A CHDI    0      -2.720   0.494  -0.163  1.00  0.00           C
+HETATM   24  C1B CHDI    0      -3.540   1.673  -0.708  1.00  0.00           C
+HETATM   25  C1C CHDI    0      -4.286   2.397   0.404  1.00  0.00           C
+HETATM   26  O1B CHDI    0      -5.462   2.234   0.643  1.00  0.00           O
+HETATM   27  O1A CHDI    0      -3.558   3.227   1.187  1.00  0.00           O
+HETATM   28   HZ CHDI    0      -2.655   3.341   0.844  1.00  0.00           H
+CONECT    1    2
+CONECT    2    1    3   10
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8   12
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    2    8   11
+CONECT   11   10
+CONECT   12    7   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16   17   20
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19
+CONECT   19   18
+CONECT   20   15   21   22
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26   25
+CONECT   27   25   28
+CONECT   28   27
+END

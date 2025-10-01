@@ -1,0 +1,81 @@
+HEADER    UNCLASSIFIED                            21-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1   CZ P5LI    0     -11.242  -1.154   2.916  1.00  0.00           C
+HETATM    2  C5C P5LI    0     -10.938  -1.674   1.632  1.00  0.00           O
+HETATM    3  C5B P5LI    0     -11.780  -1.140   0.617  1.00  0.00           C
+HETATM    4  C5A P5LI    0     -11.369  -1.684  -0.747  1.00  0.00           C
+HETATM    5  O4C P5LI    0     -10.297  -0.978  -1.363  1.00  0.00           O
+HETATM    6  C4B P5LI    0      -9.015  -1.204  -0.786  1.00  0.00           C
+HETATM    7  C4A P5LI    0      -8.061  -0.208  -1.428  1.00  0.00           C
+HETATM    8  O3C P5LI    0      -6.796  -0.351  -0.798  1.00  0.00           O
+HETATM    9  C3B P5LI    0      -5.866   0.635  -1.210  1.00  0.00           C
+HETATM   10  C3A P5LI    0      -4.600   0.454  -0.386  1.00  0.00           C
+HETATM   11  O2C P5LI    0      -3.696   1.476  -0.774  1.00  0.00           O
+HETATM   12  C2B P5LI    0      -2.454   1.401  -0.097  1.00  0.00           C
+HETATM   13  C2A P5LI    0      -1.614   2.593  -0.534  1.00  0.00           C
+HETATM   14  O1C P5LI    0      -0.318   2.412   0.014  1.00  0.00           O
+HETATM   15  C1B P5LI    0       0.492   3.574  -0.020  1.00  0.00           C
+HETATM   16  C1A P5LI    0       1.861   3.206   0.515  1.00  0.00           C
+HETATM   17  OG1 P5LI    0       2.603   2.562  -0.547  1.00  0.00           O
+HETATM   18   CB P5LI    0       3.689   1.761  -0.436  1.00  0.00           C
+HETATM   19  OG2 P5LI    0       4.318   1.549  -1.451  1.00  0.00           O
+HETATM   20   CA P5LI    0       4.053   1.122   0.926  1.00  0.00           C
+HETATM   21  CB2 P5LI    0       4.382   2.200   1.999  1.00  0.00           C
+HETATM   22    C P5LI    0       2.967   0.113   1.444  1.00  0.00           C
+HETATM   23   CP P5LI    0       1.871  -0.335   0.458  1.00  0.00           C
+HETATM   24   CQ P5LI    0       1.019  -1.468   1.042  1.00  0.00           C
+HETATM   25   S1 P5LI    0       5.778   0.361   0.804  1.00  0.00           S
+HETATM   26  CIA P5LI    0       5.922  -1.066  -0.208  1.00  0.00           C
+HETATM   27   S2 P5LI    0       4.741  -1.882  -1.031  1.00  0.00           S
+HETATM   28  CIB P5LI    0       7.339  -1.534  -0.181  1.00  0.00           C
+HETATM   29 CIC2 P5LI    0       8.419  -0.642  -0.330  1.00  0.00           C
+HETATM   30 HIC2 P5LI    0       8.231   0.411  -0.510  1.00  0.00           H
+HETATM   31 CID2 P5LI    0       9.732  -1.111  -0.287  1.00  0.00           C
+HETATM   32 HID2 P5LI    0      10.555  -0.415  -0.428  1.00  0.00           H
+HETATM   33  CIE P5LI    0       9.989  -2.467  -0.072  1.00  0.00           C
+HETATM   34 HIE2 P5LI    0      11.013  -2.829  -0.027  1.00  0.00           H
+HETATM   35 CID1 P5LI    0       8.923  -3.360   0.075  1.00  0.00           C
+HETATM   36 HID1 P5LI    0       9.115  -4.418   0.235  1.00  0.00           H
+HETATM   37 CIC1 P5LI    0       7.610  -2.903   0.013  1.00  0.00           C
+HETATM   38 HIC1 P5LI    0       6.781  -3.593   0.132  1.00  0.00           H
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   22   25
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23
+CONECT   25   20   26
+CONECT   26   25   27   28
+CONECT   27   26
+CONECT   28   26   29   37
+CONECT   29   28   30   31
+CONECT   30   29
+CONECT   31   29   32   33
+CONECT   32   31
+CONECT   33   31   34   35
+CONECT   34   33
+CONECT   35   33   36   37
+CONECT   36   35
+CONECT   37   28   35   38
+CONECT   38   37
+END

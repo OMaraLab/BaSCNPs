@@ -1,0 +1,41 @@
+HEADER    UNCLASSIFIED                            22-Feb-24
+TITLE     UNITED ATOM STRUCTURE FOR MOLECULE UNL                                
+AUTHOR    AUTOMATED TOPOLOGY BUILDER (ATB) REVISION 2023-06-14 20:38:16
+AUTHOR   2  https://atb.uq.edu.au
+HETATM    1   N1 CHDT    0       4.497   0.157   1.373  1.00  0.00           N
+HETATM    2 CTCN CHDT    0       3.736  -0.439   0.728  1.00  0.00           C
+HETATM    3  CTA CHDT    0       2.765  -1.199  -0.088  1.00  0.00           C
+HETATM    4 CTB2 CHDT    0       2.938  -2.703   0.227  1.00  0.00           C
+HETATM    5 CTB1 CHDT    0       3.055  -0.935  -1.586  1.00  0.00           C
+HETATM    6    C CHDT    0       1.325  -0.748   0.299  1.00  0.00           C
+HETATM    7   CA CHDT    0       1.055   0.782   0.158  1.00  0.00           C
+HETATM    8   CN CHDT    0       0.542   1.416   1.475  1.00  0.00           C
+HETATM    9  CMA CHDT    0       0.219   2.910   1.362  1.00  0.00           C
+HETATM   10   CB CHDT    0       0.232   1.114  -1.090  1.00  0.00           C
+HETATM   11  OG2 CHDT    0       0.720   1.699  -2.037  1.00  0.00           O
+HETATM   12  OG1 CHDT    0      -1.066   0.733  -1.221  1.00  0.00           O
+HETATM   13  C1A CHDT    0      -1.883   0.185  -0.170  1.00  0.00           C
+HETATM   14  C1B CHDT    0      -3.172  -0.296  -0.845  1.00  0.00           C
+HETATM   15  C1C CHDT    0      -4.142  -0.876   0.174  1.00  0.00           C
+HETATM   16  O1B CHDT    0      -4.346  -2.060   0.325  1.00  0.00           O
+HETATM   17  O1A CHDT    0      -4.774   0.014   0.976  1.00  0.00           O
+HETATM   18   HZ CHDT    0      -4.586   0.930   0.706  1.00  0.00           H
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5    6
+CONECT    4    3
+CONECT    5    3
+CONECT    6    3    7
+CONECT    7    6    8   10
+CONECT    8    7    9
+CONECT    9    8
+CONECT   10    7   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17
+END
